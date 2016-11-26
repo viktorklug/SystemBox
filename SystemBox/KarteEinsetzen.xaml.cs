@@ -33,12 +33,8 @@ namespace SystemBox
             //    this.Frame.Navigate(typeof(GerätKoppeln));
             //}
 
-            InitCardReader();
-
+            Loaded += PageLoaded;
             
-
-
-
         }
 
 
@@ -84,11 +80,11 @@ namespace SystemBox
             //this.Frame.Loaded += Karte_Loaded;
 
             //Karte_Drin_CheckBox.SetValue(CheckBox.IsCheckedProperty, true);
-            
+
 
         }
 
-        
+
 
         //private void Karte_Loaded(object sender, RoutedEventArgs e)
         //{

@@ -13,7 +13,7 @@
     <TextBlock RelativePanel.AlignHorizontalCenterWithPanel="True" x:Name="textBlock" Text="KarteEinsetzen" FontSize="30" Margin="0,150,0,0"/>
     <CheckBox RelativePanel.AlignHorizontalCenterWithPanel="True" x:Name="Karte_Drin_CheckBox" Content="Karte eingesetzt?" FontSize="30" Margin="0,400,0,0" Click="Karte_Drin_Click"/>
 
-    <Button RelativePanel.AlignHorizontalCenterWithPanel="True" x:Name="button" Content="Karten ID anzeigen" FontSize="30" Margin="0,500,0,0" Click="BtnClick"/>
+        <Button RelativePanel.AlignHorizontalCenterWithPanel="True" x:Name="button" Content="Karten ID anzeigen" FontSize="30" Margin="0,500,0,0" Click="BtnClick"/> 
     <TextBox RelativePanel.AlignHorizontalCenterWithPanel="True" x:Name="textBox" Text="0000" FontSize="30" Margin="0,600,0,0" />
 
     </RelativePanel>
